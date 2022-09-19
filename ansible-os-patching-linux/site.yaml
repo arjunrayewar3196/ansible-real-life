@@ -1,7 +1,7 @@
 ---
 - name: Performing Linux OS Patching
   
-  hosts: "{{ NODES }}"
+  hosts: linuxserver1
   become: true
   vars:
     email_notificaiton: false
